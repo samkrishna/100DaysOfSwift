@@ -15,6 +15,6 @@ for i in 1...100 {
         print("For \(i): Buzz")
     }
     else {
-        print("Lonely, man! \(i)")
+        print("For \(i): Nope")
     }
 }
