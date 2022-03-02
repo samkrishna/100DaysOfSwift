@@ -4,17 +4,17 @@ import Foundation
 
 for i in 1...100 {
     if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
-        print("FizzBuzz")
+        print("For \(i): FizzBuzz")
         continue
     }
 
     if i.isMultiple(of: 3) {
-        print("Fizz")
+        print("For \(i): Fizz")
     }
     else if i.isMultiple(of: 5) {
-        print("Buzz")
+        print("For \(i): Buzz")
     }
     else {
-        print("\(i)")
+        print("Lonely, man! \(i)")
     }
 }
